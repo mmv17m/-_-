@@ -99,4 +99,6 @@ async def подкрепление(ctx):
 
     await ctx.send(embed = emb)
  
-bot.run(DISCORD_BOT_TOKEN)    
+token = os.environ.get("BOT_TOKEN")
+Bot.run(str(token))
+   
