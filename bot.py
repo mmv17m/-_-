@@ -5,9 +5,7 @@ import random
 from discord.ext import commands
 from os import listdir
 from os.path import isfile, join
-
-
-DISCORD_BOT_TOKEN = 'Njg0MzM2NDYyOTI5MzMwMjE1.Xn8PhA.yh1izm_LG99KxhX7UYAKKWiAf0I'              
+       
 def get_prefix(bot, message):
     prefixes = ['.']
    
