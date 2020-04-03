@@ -67,4 +67,4 @@ async def снайпер(ctx):
 async def clear(ctx, amount = 1000):
 	await ctx.channel.purge(limit = amount)
 
-Bot.run("Njg0MzM2NDYyOTI5MzMwMjE1.XoeMZA.EPamQ38Jsy5f7KljFUNE71ZJFwk" )
+Bot.run("NjkxNzE0NDEzOTA3OTM1MzEy.XoeOAQ.9_-5DmdHtABBb-8qbElRA5d5Uzk" )
