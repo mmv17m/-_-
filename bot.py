@@ -6,7 +6,7 @@ from discord.ext import commands
 
 
 
-DISCORD_BOT_TOKEN = 'Njg0MzM2NDYyOTI5MzMwMjE1.Xn8PhA.yh1izm_LG99KxhX7UYAKKWiAf0I'              
+          
 def get_prefix(bot, message):
     prefixes = ['.']
    
@@ -66,5 +66,5 @@ async def снайпер(ctx):
 @bot.command(pass_context = True)
 async def clear(ctx, amount = 1000):
 	await ctx.channel.purge(limit = amount)
-token = os.environ.get("BOT_TOKEN")
-Bot.run(str(token))
+
+Bot.run("Njg0MzM2NDYyOTI5MzMwMjE1.XoeHSQ.01WykXOrHm_6Cg3FQRHqoViX-lM" )
