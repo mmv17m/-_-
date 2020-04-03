@@ -9,7 +9,6 @@ from os import listdir
 from os.path import isfile, join
 
 
-DISCORD_BOT_TOKEN = 'NjkwMTk3ODgxNDAzMDgwODM2.XnN64w.vdnUrjUFRrPfKMLt1dCEjEZyy40'              
 def get_prefix(bot, message):
     prefixes = ['?']
    
